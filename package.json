@@ -7,11 +7,12 @@
   "scripts": {
     "test": "npm run build && xo src/**/* && karma start",
     "build": "rollup -c",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElemeFE/vue-infinite-scroll.git"
+    "url": "https://github.com/beast911/vue-infinite-scroll.git"
   },
   "keywords": [
     "infinite-scroll",
