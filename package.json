@@ -1,5 +1,5 @@
 {
-  "name": "vue-infinite-scroll",
+  "name": "@stupefiedsikh/vue-infinite-scroll-nohook",
   "version": "2.0.2",
   "description": "An infinite scroll directive for vue.js.",
   "main": "vue-infinite-scroll.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beast911/vue-infinite-scroll.git"
+    "url": "git+https://github.com/beast911/vue-infinite-scroll.git"
   },
   "keywords": [
     "infinite-scroll",
@@ -41,5 +41,14 @@
       "browser"
     ],
     "space": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/beast911/vue-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/beast911/vue-infinite-scroll#readme",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {}
 }
